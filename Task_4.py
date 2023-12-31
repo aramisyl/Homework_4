@@ -1,6 +1,5 @@
 name = input('Введите имя и фамилию')
 last_letter = name[-1]
-print(last_letter)
 
 match last_letter:
     case "а":
