@@ -1,4 +1,4 @@
 a = ["apple", "banana", "cherry"]
 
-for item in list(map(tuple, a)):
-    print(item)
+for item in a:
+    print(item[::-1])
